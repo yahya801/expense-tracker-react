@@ -9,10 +9,10 @@ export const TransactionList = () => {
   return (
     <>
       <div>
-        <h3 style={{ paddingRight: "100px" }}>History </h3>
-        <button className="delete" onClick={() => deleteallTransaction()}>
-          Delete All
-        </button>
+        <h3 >History <button className="deletex"
+        onClick={() => deleteallTransaction()}
+        >Delete All</button></h3>
+        
       </div>
       <ul className="list">
         {transactions.map((transaction) => (
